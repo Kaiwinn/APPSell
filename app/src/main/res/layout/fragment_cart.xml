@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1F6FD"
+    tools:context=".ProductFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="#150500"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/cart_fragment" />
+
+</FrameLayout>

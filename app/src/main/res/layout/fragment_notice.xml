@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ProductFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center"
+        android:layout_width="239dp"
+        android:layout_height="221dp"
+        android:src="@drawable/kaiiwiinn" />
+
+    <ImageView
+        android:layout_marginBottom="138dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/textttkaii" />
+    <TextView
+
+        android:layout_marginTop="380dp"
+        android:gravity="center"
+        android:textColor="#011A2E"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Cuộc sống nếu cứ trốn chạy,\nsẽ chẳng còn gì đáng ý nghĩa!" />
+
+</FrameLayout>

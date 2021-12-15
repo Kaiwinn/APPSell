@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager
+        android:id="@+id/AHBNavigationViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/AHBottomNavigation"></com.aurelhubert.ahbottomnavigation.AHBottomNavigationViewPager>
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/AHBottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/view_end_animation"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="#BD0443"
+        android:layout_above="@+id/AHBNavigationViewPager"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/view_animation"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:visibility="invisible"/>
+
+</RelativeLayout>
